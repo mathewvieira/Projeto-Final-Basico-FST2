@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+}
+
+/* Remover 👇 */
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Remover 👆 */
