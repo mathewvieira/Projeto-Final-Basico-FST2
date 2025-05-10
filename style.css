@@ -13,3 +13,22 @@ img {
 }
 
 /* Remover 👆 */
+
+#informacoes-adicionais > * {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#rodape > * {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.links {
+  gap: 5%;
+  padding: 10px;
+}
