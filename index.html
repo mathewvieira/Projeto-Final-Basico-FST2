@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfólio - João Maria Silva Oliveira">
   <meta name="keywords" content="HTML, CSS, JavaScript, Portfólio, Projetos">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Portfólio - João Maria Silva Oliveira</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
   <header class="navbar">
-  <div class="logo">MeuPortfólio</div>
-  <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
-  <div class="theme-toggle" id="theme-toggle">
-    <i class="fas fa-moon"></i>
-  </div>
-</header>
-
+    <div class="logo">
+      João Maria Silva Oliveira
+      <h5>Meu Portfólio</h5>
+    </div>
+    <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+    <div class="theme-toggle" id="theme-toggle">
+      <i class="fas fa-moon"></i>
+    </div>
+  </header>
 
   <aside class="sidebar" id="sidebar">
-  <nav>
-    <ul>
-      <li><a href="#inicio"><i class="fas fa-home"></i> Início</a></li>
-      <li><a href="#sobre"><i class="fas fa-user"></i> Sobre mim</a></li>
-      <li><a href="#projetos"><i class="fas fa-code"></i> Projetos</a></li>
-      <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
-    </ul>
-  </nav>
-</aside>
+    <nav>
+      <ul>
+        <li><a href="#contatos"><i class="fas fa-envelope"></i> Contatos</a></li>
+        <li><a href="#projetos"><i class="fas fa-table"></i> Projetos</a></li>
+        <li><a href="#experiencia"><i class="fas fa-code"></i> Experiência</a></li>
+        <li><a href="#formacao"><i class="fas fa-graduation-cap"></i> Formação</a></li>
+        <li><a href="#informacoes-adicionais"><i class="fas fa-plus"></i> Informações Adicionais</a></li>
+      </ul>
+    </nav>
+  </aside>
 
-<aside>
-    <section>
+  <aside>
+    <section id="contatos">
       <h2>Contatos</h2>
       <address>
-        <ul>
+        <ul class="links">
           <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
           <li><a href="mailto:teste@teste.com">teste@teste.com</a></li>
           <li><a href="tel:+55(085)91234-5678">+55(085)91234-5678</a></li>
@@ -46,42 +50,45 @@
 
   <main>
     <article id="curriculo">
-      <h2>Currículo</h2>
-
+      <h2>Biografia</h2>
       <section id="biografia">
-        <h3>Biografia</h3>
+        <h3>Minha História</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus dolores asperiores accusamus error veniam fugiat odit ab placeat. Eos praesentium inventore doloremque. Odio ipsam exercitationem sunt assumenda aperiam fugit aliquid voluptatibus autem deserunt perferendis libero, perspiciatis culpa adipisci eligendi ratione ut alias facilis possimus quos. Aperiam, distinctio sequi.
+          Inocentes de las osos muerte que las que huye deja los. Ninos el los vacía poniendo de mi. La muelles deja árboles luna y no que ballenas huido. Talco las con abeja aire es inocentes, pisan
+          pupila mudas desnuda en mujer es los pero la, en de las celeste se las poniendo, pensamiento es de las manos abeja sus las.
         </p>
       </section>
 
-      <section id="projetos-section">
-        <h3>Projetos</h3>
+      <section id="projetos">
+        <h2>Projetos</h2>
         <div id="projetos-container">
           <div class="projetos">
-            <img class="projetos-img" src="https://images.unsplash.com/photo-1556742205-e10c9486e506?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Curriculum Photo">
+            <h4 class="projetos-titulo">Restaurante Japonês</h4>
+            <img
+              class="projetos-img"
+              src="https://images.unsplash.com/photo-1556742205-e10c9486e506?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="">
             <div class="projetos-tecnologias">
               <span>HTML</span>
               <span>CSS</span>
               <span>JavaScript</span>
               <span>PHP</span>
             </div>
-            <h4 class="projetos-titulo">Restaurante Japonês</h4>
             <p class="projetos-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis illo vel consectetur quisquam voluptatem pariatur dicta accusantium libero tenetur saepe!
+              Desangradas hombrecillo me quedo mármol borrando es es es en mi. Quedo el la mueven donde bala, tierra me huye.
             </p>
             <div class="projetos-action">
-              <button>codigo</button>
-              <button>Visualizar</button>
+              <button type="button">Código</button>
+              <button type="button">Visualizar</button>
             </div>
           </div>
-        <div>
-            <h4>Projeto 2</h4>
-            <img src="assets/images/blue-user.webp" alt="Curriculum Photo">
 
           <div class="projetos">
             <h4 class="projetos-titulo">E-Bank</h4>
-            <img class="projetos-img" src="https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Curriculum Photo">
+            <img
+              class="projetos-img"
+              src="https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="">
             <div class="projetos-tecnologias">
               <span>HTML</span>
               <span>CSS</span>
@@ -89,20 +96,20 @@
               <span>PHP</span>
             </div>
             <p class="projetos-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis illo vel consectetur quisquam voluptatem pariatur dicta accusantium libero tenetur saepe!
+              Desangradas hombrecillo me quedo mármol borrando es es es en mi. Quedo el la mueven donde bala, tierra me huye.
             </p>
             <div class="projetos-action">
-              <button>codigo</button>
-              <button>Visualizar</button>
+              <button type="button">Código</button>
+              <button type="button">Visualizar</button>
             </div>
-        <div>
-            <h4>Projeto 2</h4>
-            <img src="assets/images/blue-user.webp" alt="Curriculum Photo">
           </div>
 
           <div class="projetos">
             <h4 class="projetos-titulo">E-commerce</h4>
-            <img class="projetos-img" src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg" alt="Curriculum Photo">
+            <img
+              class="projetos-img"
+              src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg"
+              alt="">
             <div class="projetos-tecnologias">
               <span>HTML</span>
               <span>CSS</span>
@@ -110,11 +117,11 @@
               <span>PHP</span>
             </div>
             <p class="projetos-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis illo vel consectetur quisquam voluptatem pariatur dicta accusantium libero tenetur saepe!
+              Desangradas hombrecillo me quedo mármol borrando es es es en mi. Quedo el la mueven donde bala, tierra me huye.
             </p>
             <div class="projetos-action">
-              <button>codigo</button>
-              <button>Visualizar</button>
+              <button type="button">Código</button>
+              <button type="button">Visualizar</button>
             </div>
           </div>
         </div>
@@ -129,12 +136,13 @@
         <h3>Formação</h3>
         <p>Come vacía pasan pasan huye tierra la las nube. La los y despenada la mueven, la se nino lo se.</p>
       </section>
+
       <section id="informacoes-adicionais">
         <h3>Informações Adicionais</h3>
-        <p>Certificações: "Introdução ao Desenvolvimento Web"  Alura (2023), "Git e GitHub para Iniciantes"  Udemy (2022)</p>
+        <p>Certificações: "Introdução ao Desenvolvimento Web" Alura (2023), "Git e GitHub para Iniciantes" Udemy (2022)</p>
         <p>Soft Skills: Comunicação clara, resolução de problemas, aprendizado contínuo, trabalho em equipe</p>
-        <p>Ferramentas e Tecnologias: Git, Figma, VS Code, Postman, Trello, Notion</p> 
-        <p>Atividades Complementares: Participante ativo em comunidades de tecnologia como Dev.to e Rocketseat, Colaborador em projetos open source voltados para educação</p>  
+        <p>Ferramentas e Tecnologias: Git, Figma, VS Code, Postman, Trello, Notion</p>
+        <p>Atividades Complementares: Participante ativo em comunidades de tecnologia como Dev.to e Rocketseat, Colaborador em projetos open source voltados para educação</p>
         <p>Interesses Profissionais: Acessibilidade digital, performance web, experiências interativas e design centrado no usuário</p>
       </section>
     </article>
@@ -142,7 +150,7 @@
 
   <footer>
     <section id="rodape">
-      <h2 >Links</h2>
+      <h2>Siga-me</h2>
       <ul class="links">
         <li><a href="#">GitHub</a></li>
         <li><a href="#">Twitter</a></li>
@@ -155,4 +163,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
